@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: grey;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 25%;
+            margin: 0 auto;
+            padding: 50px;
+            border: 2px solid #333;
+            background-color: white;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        form {
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select,
+        textarea,
+        input[type="date"],
+        input[type="color"],
+        input[type="range"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            ;
+           ;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="hyy.html" method="get">
+            <label>Firstname</label>
+            <input type="text" placeholder="Enter your Firstname">
+           
+            <label>Lastname</label>
+            <input type="text" placeholder="Enter your Lastname">
+           
+            <label>Course</label>
+            <select name="gameoption">
+                <option>MCA</option>
+                <option>INMCA</option>
+            </select>
+           
+            <label>Email</label>
+            <input type="email" placeholder="Email">
+           
+            <label>Password</label>
+            <input type="password" placeholder="Password">
+           
+            <label>Address</label>
+            <textarea rows="5" cols="20"></textarea>
+           
+            <label>Gender</label>
+            <input type="radio" name='Gender' id='male'><label for='male'>Male</label>
+            <input type="radio" name='Gender' id='female'><label for='female'>Female</label>
+           
+            <label>Date of Birth</label>
+            <input type="date">
+           
+            <label>Additional Courses (optional):</label>
+            <input type="checkbox" id='ai'><label for='ai'>AI</label>
+            <input type="checkbox" id='ml'><label for='ml'>ML</label>
+            <input type="checkbox" id='ds'><label for='ds'>DS</label>
+            <input type="checkbox" id='python'><label for='python'>Python</label>
+           
+            <label>Favourite color</label>
+            <input type="color">
+           
+            <label>Rate Experience</label>
+            <input type="range">
+           
+            <input type="submit">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="reset" id="reset">
+        </form>
+    </div>
+</body>
+</html>
